@@ -114,6 +114,10 @@ tags = ['functional', 'events']
 tests = ['fallocate_prealloc', 'fallocate_zero-range']
 tags = ['functional', 'fallocate']
 
+[tests/functional/fh_unlinked_open:Linux]
+tests = ['fh_unlinked_open_001_pos']
+tags = ['functional', 'fh_unlinked_open']
+
 [tests/functional/fault:Linux]
 tests = ['auto_offline_001_pos', 'auto_online_001_pos', 'auto_online_002_pos',
     'auto_replace_001_pos', 'auto_replace_002_pos', 'auto_spare_001_pos',
